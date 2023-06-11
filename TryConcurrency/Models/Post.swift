@@ -8,6 +8,7 @@
 import Foundation
 
 // source https://jsonplaceholder.typicode.com/posts
+// single users posts https://jsonplaceholder.typicode.com/users/1/posts
 
 struct Post: Codable, Identifiable {
     let userId: Int
